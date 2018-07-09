@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/AhmadRangeen/Desktop/p4/playlist.cc
+playlist.h
+/Users/AhmadRangeen/Desktop/p4/playlist.h
+functional
+-
+string
+-
+list
+-
+
+/Users/AhmadRangeen/Desktop/p4/playlist.h
+functional
+-
+string
+-
+list
+-
+
+/Users/AhmadRangeen/Desktop/p4/playlist_test.cc
+playlist.h
+/Users/AhmadRangeen/Desktop/p4/playlist.h
+iostream
+-
+list
+-
+

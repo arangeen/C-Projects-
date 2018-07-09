@@ -1,0 +1,37 @@
+g++ -std=c++11 -Wall   -c -o playlist.o playlist.cc
+playlist.cc:33:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+playlist.cc:38:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+playlist.cc:45:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+playlist.cc:57:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+playlist.cc:62:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+playlist.cc:67:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+playlist.cc:83:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+playlist.cc:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+playlist.cc:96:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+playlist.cc:101:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+playlist.cc:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+11 warnings generated.
+g++ -std=c++11 -Wall   -c -o playlist_test.o playlist_test.cc
+g++ -std=c++11 -Wall -o playlist_test playlist.o playlist_test.o

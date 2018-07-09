@@ -1,0 +1,30 @@
+called: /usr/bin/g++
+	/Users/AhmadRangeen/Desktop/p4
+	/usr/bin/g++
+	-std=c++11
+	-Wall
+	-c
+	-o
+	playlist.o
+	playlist.cc
+
+called: /usr/bin/g++
+	/Users/AhmadRangeen/Desktop/p4
+	/usr/bin/g++
+	-std=c++11
+	-Wall
+	-c
+	-o
+	playlist_test.o
+	playlist_test.cc
+
+called: /usr/bin/g++
+	/Users/AhmadRangeen/Desktop/p4
+	/usr/bin/g++
+	-std=c++11
+	-Wall
+	-o
+	playlist_test
+	playlist.o
+	playlist_test.o
+
