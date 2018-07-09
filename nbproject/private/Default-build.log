@@ -1,0 +1,17 @@
+g++ -std=c++11 -Wall   -c -o tictactoe.o tictactoe.cc
+g++ -std=c++11 -Wall   -c -o board.o board.cc
+board.cc:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+board.cc:66:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+In file included from board.cc:14:
+./board.h:38:9: warning: private field 'size_' is not used [-Wunused-private-field]
+    int size_;     // The size of the grid (i.e. size x size)
+        ^
+./board.h:39:12: warning: private field 'grid_' is not used [-Wunused-private-field]
+    char** grid_;  // The 2D grid for the board
+           ^
+4 warnings generated.
+g++ -std=c++11 -Wall -o tictactoe tictactoe.o board.o

@@ -1,0 +1,30 @@
+called: /usr/bin/g++
+	/Users/AhmadRangeen/Desktop/p1
+	/usr/bin/g++
+	-std=c++11
+	-Wall
+	-c
+	-o
+	tictactoe.o
+	tictactoe.cc
+
+called: /usr/bin/g++
+	/Users/AhmadRangeen/Desktop/p1
+	/usr/bin/g++
+	-std=c++11
+	-Wall
+	-c
+	-o
+	board.o
+	board.cc
+
+called: /usr/bin/g++
+	/Users/AhmadRangeen/Desktop/p1
+	/usr/bin/g++
+	-std=c++11
+	-Wall
+	-o
+	tictactoe
+	tictactoe.o
+	board.o
+
