@@ -1,0 +1,66 @@
+g++ -std=c++11 -Wall   -c -o csc340_vector_test.o csc340_vector_test.cc
+In file included from csc340_vector_test.cc:12:
+./csc340_vector.h:67:5: warning: control reaches end of non-void function [-Wreturn-type]
+    }
+    ^
+csc340_vector_test.cc:31:14: note: in instantiation of member function 'csc340_vector<int>::size' requested here
+    CHECK(vi.size() == 0 && vi.capacity() == 1);
+             ^
+In file included from csc340_vector_test.cc:12:
+./csc340_vector.h:82:5: warning: control reaches end of non-void function [-Wreturn-type]
+    }
+    ^
+csc340_vector_test.cc:31:32: note: in instantiation of member function 'csc340_vector<int>::capacity' requested here
+    CHECK(vi.size() == 0 && vi.capacity() == 1);
+                               ^
+In file included from csc340_vector_test.cc:12:
+./csc340_vector.h:62:5: warning: control reaches end of non-void function [-Wreturn-type]
+    }
+    ^
+csc340_vector_test.cc:32:14: note: in instantiation of member function 'csc340_vector<int>::empty' requested here
+    CHECK(vi.empty());
+             ^
+In file included from csc340_vector_test.cc:12:
+./csc340_vector.h:51:5: warning: control reaches end of non-void function [-Wreturn-type]
+    }
+    ^
+csc340_vector_test.cc:36:14: note: in instantiation of member function 'csc340_vector<int>::front' requested here
+    CHECK(vi.front() == 42);
+             ^
+In file included from csc340_vector_test.cc:12:
+./csc340_vector.h:57:5: warning: control reaches end of non-void function [-Wreturn-type]
+    }
+    ^
+csc340_vector_test.cc:37:14: note: in instantiation of member function 'csc340_vector<int>::back' requested here
+    CHECK(vi.back() == 42);
+             ^
+In file included from csc340_vector_test.cc:12:
+./csc340_vector.h:45:5: warning: control reaches end of non-void function [-Wreturn-type]
+    }
+    ^
+csc340_vector_test.cc:49:13: note: in instantiation of member function 'csc340_vector<int>::operator[]' requested here
+    CHECK(vi[0] == 42 && vi[1] == 123);
+            ^
+In file included from csc340_vector_test.cc:12:
+./csc340_vector.h:39:5: warning: control reaches end of non-void function [-Wreturn-type]
+    }
+    ^
+csc340_vector_test.cc:55:14: note: in instantiation of member function 'csc340_vector<int>::at' requested here
+    CHECK(vi.at(0) == 42 && vi.at(1) == 123 && vi.at(2) == -1);
+             ^
+In file included from csc340_vector_test.cc:12:
+./csc340_vector.h:114:5: warning: control reaches end of non-void function [-Wreturn-type]
+    }
+    ^
+csc340_vector_test.cc:92:15: note: in instantiation of member function 'csc340_vector<int>::begin' requested here
+    CHECK(*vi.begin() == 42);
+              ^
+In file included from csc340_vector_test.cc:12:
+./csc340_vector.h:118:5: warning: control reaches end of non-void function [-Wreturn-type]
+    }
+    ^
+csc340_vector_test.cc:93:16: note: in instantiation of member function 'csc340_vector<int>::end' requested here
+    CHECK(*(vi.end() - 1) == 105);
+               ^
+9 warnings generated.
+g++ -std=c++11 -Wall -o csc340_vector_test csc340_vector_test.o
